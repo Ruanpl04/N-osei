@@ -213,7 +213,7 @@ end)
 
 -- reabre a GUI no novo servidor
 -- troca SUAURL pelo link raw do pastebin com este script
-local SCRIPT_URL = "SUAURL"
+local SCRIPT_URL = "https://raw.githubusercontent.com/Ruanpl04/N-osei/refs/heads/main/README.md"
 player.CharacterAdded:Connect(function()
 	task.wait(2)
 	if SCRIPT_URL ~= "SUAURL" then
